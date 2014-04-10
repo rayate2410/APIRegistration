@@ -6,6 +6,7 @@ from APIBasedProject.models import UserInfo
 import json
 from django.core.mail import send_mail
 
+#Testing
 @csrf_exempt
 def registerUser(request):
     
